@@ -26,7 +26,7 @@ func fetchSystems(ctx context.Context, meta schema.ClientMeta, parent *schema.Re
 	c := meta.(*client.Client)
 	systemsList, err := c.JumpCloud.GetSystems(false)
 	if err != nil {
-		return fmt.Errorf("Could not read systems, err='%s'\n", err)
+		return fmt.Errorf("could not read systems, err='%s'", err)
 	}
 
 	for _, system := range systemsList {

@@ -21,3 +21,9 @@ cq-source-jumpcloud
 
 dist
 *.log
+.vscode
+.envrc
+.cq
+data
+cloudquery
+__debug*

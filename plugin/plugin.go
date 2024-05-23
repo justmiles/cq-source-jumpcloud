@@ -19,6 +19,7 @@ func Plugin() *source.Plugin {
 		schema.Tables{
 			resources.UsersTable(),
 			resources.SystemsTable(),
+			resources.UsersBoundToSystemTable(),
 		},
 		client.New,
 	)
