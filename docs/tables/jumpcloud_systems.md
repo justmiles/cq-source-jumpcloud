@@ -38,3 +38,7 @@ The primary key for this table is **_id**.
 |sshd_params|`json`|
 |network_interfaces|`json`|
 |tags|`list<item: utf8, nullable>`|
+|hardware_model|`utf8`|
+|hardware_serial|`utf8`|
+|hardware_vendor|`utf8`|
+|hardware_version|`utf8`|
