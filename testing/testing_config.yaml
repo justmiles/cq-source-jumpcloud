@@ -16,6 +16,7 @@ spec:
 kind: destination
 spec:
   name: "file"
+  registry: github
   path: "cloudquery/file"
   write_mode: "append" # file only supports 'append' mode
   version: "v3.2.2"
